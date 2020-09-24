@@ -8358,10 +8358,11 @@ h1, h2, h3, h4, h5,
           letter-spacing: 2px;
           font-family: "Poppins", Arial, sans-serif;
           font-weight: 600;
-          color: #007bff;
+          color: #ffa500;
           display: inline-block;
           position: relative;
-          letter-spacing: 4px; }
+          letter-spacing: 4px;
+          }
     .owl-carousel.home-slider .owl-nav {
       position: absolute;
       top: 50%;
