@@ -9087,30 +9087,30 @@ textarea.form-control {
 
 .footer {
   overflow: hidden;
-  background: #ff8c00 ;
+  background: #000000;
   }
   .footer .logo {
     font-size: 20px !important;
     font-weight: 600 !important;
     line-height: 1; }
     .footer .logo a {
-      color: #000000;
+      color: #ffffff;
       }
       .footer .logo a span {
-        color: #ff8c00;
+        color: #ffffff;
         }
   .footer .ftco-footer-widget h2 {
     font-weight: normal;
-    color: #000000;
+    color: #ffffff;
     margin-bottom: 40px;
     font-size: 18px;
     font-weight: 500;
     }
   .footer .ftco-footer-widget ul li a {
-    color: #000000;
+    color: #ffffff;
     }
     .footer .ftco-footer-widget ul li a span {
-      color: #000000;
+      color: #ffffff;
       }
     .footer .ftco-footer-widget ul li a:hover {
       color: #007bff; }
@@ -9123,20 +9123,20 @@ textarea.form-control {
       background: #fff;
       border: 2px solid #fff !important; }
   .footer p {
-    color: rgba(0, 0, 0, 255);
+    color: rgba(255, 255, 255, 0.9);
     }
   .footer a {
     color: rgba(255, 255, 255, 0.7); }
     .footer a:hover {
       color: #fff; }
   .footer .opening-hours h4 {
-    color: #000000;
+    color: #ffffff;
     font-size: 12px;
     text-transform: uppercase;
     font-weight: 700;
     }
   .footer .opening-hours p span {
-    color: rgba(0, 0, 0, 255);
+    color: rgba(255, 255, 255, 0.9);
     }
 
 .ftco-footer-social li {
@@ -9431,7 +9431,7 @@ textarea.form-control {
     line-height: 1.5;
     margin-bottom: 15px; }
   .block-23 ul li span {
-    color: rgba(0, 0, 0, 255);
+    color: rgba(255, 255, 255,0.9);
     }
   .block-23 ul li .icon, .block-23 ul li .text {
     display: table-cell;
@@ -9440,7 +9440,7 @@ textarea.form-control {
     width: 40px;
     font-size: 18px;
     padding-top: 2px;
-    color: #000000;
+    color: #ffffff;
     }
 
 .block-27 ul {
