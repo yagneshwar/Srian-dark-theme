@@ -8360,7 +8360,7 @@ h1, h2, h3, h4, h5,
           letter-spacing: 2px;
           font-family: "Poppins", Arial, sans-serif;
           font-weight: 600;
-          color: #007bff;
+          color: #ff8c00;
           display: inline-block;
           position: relative;
           letter-spacing: 4px;
@@ -9131,7 +9131,7 @@ textarea.form-control {
     .footer a:hover {
       color: #fff; }
   .footer .opening-hours h4 {
-    color: #007bff;
+    color: #ff8c00;
     font-size: 12px;
     text-transform: uppercase;
     font-weight: 700;
