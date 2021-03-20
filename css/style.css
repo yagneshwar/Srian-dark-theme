@@ -5280,7 +5280,7 @@ button.bg-danger:focus {
   background-color: #bd2130 !important; }
 
 .bg-light {
-  background-color: #f8f9fa !important; }
+  background-color: #252525 !important; }
 
 a.bg-light:hover, a.bg-light:focus,
 button.bg-light:hover,
@@ -7996,11 +7996,12 @@ a.text-dark:hover, a.text-dark:focus {
 
 body {
   font-family: "Poppins", Arial, sans-serif;
-  background: #fff;
+  background: #252525;
   font-size: 14px;
   line-height: 1.8;
   font-weight: 400;
-  color: gray; }
+  color: gray ;
+  }
   body.menu-show {
     overflow: hidden;
     position: fixed;
@@ -8037,18 +8038,20 @@ h1, h2, h3, h4, h5,
       background: transparent; } }
 
 .ftco-navbar-light {
-  background: #fff !important;
+  background: #252525 !important;
   z-index: 3;
   padding: 0;
   -webkit-box-shadow: 0px 3px 15px -15px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 3px 15px -15px rgba(0, 0, 0, 0.75);
-  box-shadow: 0px 3px 15px -15px rgba(0, 0, 0, 0.75); }
+  box-shadow: 0px 3px 15px -15px rgba(0, 0, 0, 0.75);
+  }
   @media (max-width: 991.98px) {
     .ftco-navbar-light {
-      background: #000000 !important;
+      background: #000 !important;
       position: relative;
       top: 0;
-      padding: 10px 15px; } }
+      padding: 10px 15px;
+      } }
   @media (max-width: 991.98px) {
     .ftco-navbar-light .navbar-nav {
       padding-bottom: 10px; } }
@@ -8059,7 +8062,7 @@ h1, h2, h3, h4, h5,
     padding-left: 23px;
     padding-right: 23px;
     font-weight: 500;
-    color: #000000;
+    color: #fff;
     text-transform: uppercase;
     letter-spacing: 1px;
     position: relative;
@@ -8132,7 +8135,9 @@ h1, h2, h3, h4, h5,
         background: none;
         border-radius: 4px; } }
   .ftco-navbar-light .navbar-nav > .nav-item.active > a {
-    color: #fff; }
+    color: #fff;
+    color: white;
+    }
     .ftco-navbar-light .navbar-nav > .nav-item.active > a:before {
       visibility: visible;
       background-color: #007bff;
@@ -8146,12 +8151,13 @@ h1, h2, h3, h4, h5,
           display: none; } }
   .ftco-navbar-light .navbar-toggler {
     border: none;
-    color: rgba(255, 255, 255, 0.5) !important;
+    color: rgba(255, 255, 255) !important;
     cursor: pointer;
     padding-right: 0;
     text-transform: uppercase;
     font-size: 16px;
-    letter-spacing: .1em; }
+    letter-spacing: .1em;
+    }
     .ftco-navbar-light .navbar-toggler:focus {
       outline: none !important; }
 
@@ -8511,7 +8517,7 @@ h1, h2, h3, h4, h5,
     display: inline-block; }
 
 .bg-light {
-  background: #ebecf1 !important; }
+  background: #252525 !important; }
 
 .bg-primary {
   background: #007bff !important; }
@@ -8663,15 +8669,16 @@ h1, h2, h3, h4, h5,
     margin-bottom: 0; }
 
 .tabulation .nav-pills .nav-item .nav-link {
-  background: #fff;
+  background: #252525;
   border-radius: 0;
-  color: #000000;
+  color: #fff;
   font-weight: 500;
   font-size: 16px;
   line-height: 30px;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255,255,255);
   border-bottom: 1px solid #fff;
-  border-left: 1px solid #fff; }
+  border-left: 1px solid #fff;
+  }
   @media (max-width: 1199.98px) {
     .tabulation .nav-pills .nav-item .nav-link {
       font-size: 13px; } }
@@ -8681,15 +8688,16 @@ h1, h2, h3, h4, h5,
     }
   .tabulation .nav-pills .nav-item .nav-link.active {
     color: #007bff;
-    background: #fff;
-    border: 1px solid #fff;
-    border-top: 1px solid rgba(0, 0, 0, 0.1); }
+    background: #252525;
+    border: 1px solid #ff8c00;
+    border-top: 1px solid rgba(255,140,0); }
     .tabulation .nav-pills .nav-item .nav-link.active span {
       color: #007bff; }
 
 .tabulation .tab-content {
-  background: #fff;
-  padding: 0; }
+  background: #252525;
+  padding: 0;
+  }
   .tabulation .tab-content .img {
     width: 100%;
     height: 300px;
@@ -8697,7 +8705,7 @@ h1, h2, h3, h4, h5,
   .tabulation .tab-content h3 {
     font-weight: 600; }
     .tabulation .tab-content h3 a {
-      color: #252525;
+      color: #fff;
       }
   .tabulation .tab-content ul {
     margin: 0;
@@ -8705,12 +8713,12 @@ h1, h2, h3, h4, h5,
     .tabulation .tab-content ul li {
       list-style: none;
       margin: 0 0 7px 0;
-      border: 1px solid rgba(0, 0, 0, 0.1);
+      border: 1px solid rgba(128,128,128);
       padding: 7px 10px; }
       .tabulation .tab-content ul li span.fa {
         font-size: 12px;
         margin-right: 15px;
-        color: #007bff; }
+        color: #ff8c00; }
 
 .services {
   display: block;
@@ -9203,7 +9211,7 @@ textarea.form-control {
 .heading-section h2 {
   font-size: 34px;
   font-weight: 500;
-  color: #252525;
+  color: #ff8c00;
   }
   @media (max-width: 767.98px) {
     .heading-section h2 {
